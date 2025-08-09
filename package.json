@@ -1,17 +1,13 @@
 {
-  "name": "youtube-downloader-api",
+  "name": "my-ytdl-api",
   "version": "1.0.0",
-  "description": "API لتحميل فيديوهات وصوت من يوتيوب",
+  "description": "YouTube Video Downloader API using ytdl-core",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "ytdl-core": "^4.11.5",
-    "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=16"
+    "ytdl-core": "^4.11.5"
   }
 }
